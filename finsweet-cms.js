@@ -877,6 +877,8 @@
 			d = a[l - 1];
 		if (f) f.querySelectorAll(i).forEach((function(t) {
 			t.style.display = "block"
+			console.log(c)
+			console.log(f)
 		})), c.href = f.href, f.querySelectorAll(i).forEach((function(t) {
 			t.style.display = ""
 		}));
@@ -885,6 +887,8 @@
 		} catch (t) {}
 		if (d) d.querySelectorAll(i).forEach((function(t) {
 			t.style.display = "block"
+			console.log(u)
+			console.log(d)
 		})), u.href = d.href, d.querySelectorAll(i).forEach((function(t) {
 			t.style.display = ""
 		}));
