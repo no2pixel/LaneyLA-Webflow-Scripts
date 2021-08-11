@@ -879,7 +879,7 @@
 			t.style.display = "block"
 			console.log(c)
 			console.log(f)
-		})), c.href = f.href, f.querySelectorAll(i).forEach((function(t) {
+		})), c.href = f.querySelectorAll('.post-prevnext-item').href, f.querySelectorAll(i).forEach((function(t) {
 			t.style.display = ""
 		}));
 		else try {
@@ -889,7 +889,7 @@
 			t.style.display = "block"
 			console.log(u)
 			console.log(d)
-		})), u.href = d.href, d.querySelectorAll(i).forEach((function(t) {
+		})), u.href = d.querySelectorAll('.post-prevnext-item').href, d.querySelectorAll(i).forEach((function(t) {
 			t.style.display = ""
 		}));
 		else try {
