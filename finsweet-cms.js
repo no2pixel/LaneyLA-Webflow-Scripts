@@ -877,23 +877,33 @@
 			d = a[l - 1];
 		if (f) f.querySelectorAll(i).forEach((function(t) {
 			t.style.display = "block"
+<<<<<<< Updated upstream
 			console.log(c)
 			console.log(f)
 		})), c.href = f.querySelectorAll('.post-prevnext-item').href, f.querySelectorAll(i).forEach((function(t) {
+=======
+		})), c.href = f.querySelector('.post-prevnext-item').href, f.querySelectorAll(i).forEach((function(t) {
+>>>>>>> Stashed changes
 			t.style.display = ""
 		}));
 		else try {
-			c.querySelector(":not(.prev-next-empty-message)").style.display = "none", c.querySelector(".prev-next-empty-message").style.display = "block"
+			f = a.slice(-1)[0];
+			c.href = f.querySelector('.post-prevnext-item').href
 		} catch (t) {}
 		if (d) d.querySelectorAll(i).forEach((function(t) {
 			t.style.display = "block"
+<<<<<<< Updated upstream
 			console.log(u)
 			console.log(d)
 		})), u.href = d.querySelectorAll('.post-prevnext-item').href, d.querySelectorAll(i).forEach((function(t) {
+=======
+		})), u.href = d.querySelector('.post-prevnext-item').href, d.querySelectorAll(i).forEach((function(t) {
+>>>>>>> Stashed changes
 			t.style.display = ""
 		}));
 		else try {
-			u.querySelector(":not(.prev-next-empty-message)").style.display = "none", u.querySelector(".prev-next-empty-message").style.display = "block"
+			d = a[0];
+			u.href = d.querySelector('.post-prevnext-item').href
 		} catch (t) {}
 	}
 }, function(t, e, n) {
