@@ -881,7 +881,7 @@
 			t.style.display = ""
 		}));
 		else try {
-			f = a.slice(-1)[0];
+			f = a[0];
 			c.href = f.querySelector('.post-prevnext-item').href
 		} catch (t) {}
 		if (d) d.querySelectorAll(i).forEach((function(t) {
@@ -890,7 +890,7 @@
 			t.style.display = ""
 		}));
 		else try {
-			d = a[0];
+			d = a.slice(-1)[0];
 			u.href = d.querySelector('.post-prevnext-item').href
 		} catch (t) {}
 	}
